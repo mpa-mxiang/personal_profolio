@@ -1,4 +1,4 @@
-<a name="Hello-Microverse Project"></a>
+<a name="Personal-Profolio"></a>
 
 # 📗 Table of Contents
 
@@ -24,9 +24,9 @@
 - [📝 License](#license)
 
 
-# 📖 **HELLO-MICROVERSE PROJECT** <a name="about-project"></a>
+# 📖 **Personal-Profolio** <a name="about-project"></a>
 
-**Hello-Microverse Project. Jiachun Xiang** In this project, I used the tools like linter, HTML/CSS I learned from provided tutorial to build the toolbar and the headline section for my personal profolio. Also, a Figma template is used.
+**Personal-Profolio. Jiachun Xiang** In this project, I used the tools like linter, HTML/CSS I learned from provided tutorial to build the toolbar and the headline section for my personal profolio. Also, a Figma template is used.
 
 
 ## 🛠 Built With <a name="VS Code">VS Code</a>
