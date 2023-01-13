@@ -105,7 +105,7 @@ a {
   gap: 12rem;
 }
 
-.card {
+.card{
   background-color: white;
   padding: 2.5rem 1.5rem;
   border-radius: 25px;
@@ -113,6 +113,8 @@ a {
   flex-direction: column;
   border: 1px solid #dfe1e6;
 }
+
+
 
 .card-image {
   width: 100%;
@@ -164,43 +166,35 @@ a {
 }
 
 .card button {
-/* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
+  color: #396df2;
+  border: 2px solid #396df2;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: none;
+}
 
-  position: absolute;
-  width: 124px;
-  height: 48px;
-  left: 0px;
-  top: 16px;
-
-  /* Primary/B400 */
-  border: 1px solid #6070FF;
+.card button:hover {
+  color: #FFFFFF;
+  background: #6070FF;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
 }
 
+
 .card button:active {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-
-  position: absolute;
-  width: 124px;
-  height: 48px;
-  left: 0px;
-  top: 16px;
-
-  /* Primary/B500 */
-  background: #4053FC;
-  /* Button/1 */
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  color: #FFFFFF;
+  background: #2230D2;
   border-radius: 8px;
+}
+
+.card button:disabled {
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
+  color: #5E6C84;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .about {
@@ -262,3 +256,4 @@ a {
 .language-img {
   height: 50px;
 }
+
