@@ -53,13 +53,13 @@ header p {
 }
 
 .hero h1 {
-  font-size: 4.5rem;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: 0.5px;
 }
 
 .hero-text p {
-  font-size: 40px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: 300;
   margin-top: 5px;
