@@ -1,4 +1,4 @@
-<a name="Hello-Microverse Project"></a>
+<a name="Personal-Profolio"></a>
 
 # 📗 Table of Contents
 
@@ -24,30 +24,30 @@
 - [📝 License](#license)
 
 
-# 📖 **HELLO-MICROVERSE PROJECT** <a name="about-project"></a>
+# 📖 **Personal-Profolio** <a name="about-project"></a>
 
-**Hello-Microverse Project. Jiachun Xiang** In this project, I used the tools like linter, HTML/CSS I learned from provided tutorial.
+**Personal-Profolio. Jiachun Xiang** In this project, I used the tools like linter, HTML/CSS I learned from provided tutorial to build the toolbar and the headline section for my personal profolio. Also, a Figma template is used.
 
 
 ## 🛠 Built With <a name="VS Code">VS Code</a>
 
 ### Tech Stack <a name="VS Code"></a>
 
-GitHub/Git, VS Code, HTML/CSS, Linter
+GitHub/Git, VS Code, HTML/CSS, Linter, Figma
 
 ### Key Features <a name="key-features"></a>
 
 - HTML/CSS
 - Linter
+- Figma
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Future Features <a name="future-features"></a>
 
-- JavaScript
-- Header
-- Headline
+- Work section
+- About myself section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
