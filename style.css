@@ -151,7 +151,6 @@ a {
 .technologies {
   list-style: none;
   padding-left: 0;
-  display: flex;
   gap: 1rem;
 }
 
@@ -161,6 +160,7 @@ a {
   color: #6070ff;
   border-radius: 8px;
   font-size: 1.2rem;
+  float: left;
 }
 
 .card button {
