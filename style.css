@@ -256,6 +256,7 @@ a {
   height: 779px;
   background-color: #6070ff;
   border-top-left-radius: 75px;
+  background-image: url("./img/contact_form_mobile.png") top;
 }
 
 .contact-text p {
