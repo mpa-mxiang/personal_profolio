@@ -254,7 +254,6 @@ a {
 }
 
 /*contact*/
-
 .contact {
   /*
   background-image: url('./img/contactme.png'),url('./img/contact_form_mobile.png');
@@ -270,6 +269,7 @@ a {
   */
   background-color: #6070ff;
   border-top-left-radius: 75px;
+  background-image: url("./img/contact_form_mobile.png") top;
 }
 
 
@@ -280,6 +280,7 @@ a {
   align-items: center;
   height: 779px;
 }
+
 .contact-h1 {
 
   /* Header / 2 */
@@ -292,38 +293,88 @@ a {
   /* or 130% */
   text-align: center;
   align-items: center;
+  margin: 103px;
   /* Neutrals/N0 */
-
   color: #FFFFFF;
 }
-.contact input{
-  height: 48px;
-  radius: 8px;
-  /* Mono/White */
-  
-  background: #FFFFFF;
-  /* Base/100 */
-  
-  border: 1px solid #CFD8DC;
-  border-radius: 8px;
+
+.contact-text {
   width: 327px;
-  border-radius: 0;
-  display: flex;
-  justify-content: center;
+  height: 102px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
   text-align: center;
-  position: absolute;
+
+  /* Primary/B50 */
+
+  color: #EBEBFF;
 }
-.contact textarea{
-  width: 327px;
-  height: 170px;
-  radius: 8px;
+
+.contact input {
+right: 0px;
+bottom: 0px;
+
+/* Mono/White */
+
+background: #FFFFFF;
+/* Base/100 */
+
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+}
+
+.contact-msg {
   background: #FFFFFF;
-  /* Base/100 */
+/* Base/100 */
+
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+}
+
+.contact-btn {
+  width: 142px;
+  height: 48px;
   
-  border: 1px solid #CFD8DC;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: absolute;
+  /* Neutrals/N0 */
+  
+  background: #FFFFFF;
+}
+
+.contact-hug {
+  width: 110px;
+height: 24px;
+
+/* Button /Normal */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+fieldset {
+  border: 0;
 }
