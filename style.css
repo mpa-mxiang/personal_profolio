@@ -306,7 +306,7 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin: auto;
+  margin: 50px;
 }
 
 .form {
@@ -368,6 +368,8 @@ textarea:focus .form fieldset input {
   letter-spacing: 0.03em;
   border: 0;
   align-self: flex-start;
+  margin: inherit;
+  margin-top: -55px
 }
 
 .button:hover {
