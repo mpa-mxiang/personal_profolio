@@ -318,6 +318,10 @@ a {
   gap: 24px;
 }
 
+.form-fieldset {
+  padding: 45px;
+}
+
 .form fieldset input,
 textarea {
   height: 48px;
