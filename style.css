@@ -369,7 +369,7 @@ textarea:focus .form fieldset input {
   border: 0;
   align-self: flex-start;
   margin: inherit;
-  margin-top: -55px
+  margin-top: -55px;
 }
 
 .button:hover {
