@@ -398,22 +398,9 @@ textarea:focus .form fieldset input {
   justify-content: center;
 }
 
-@m@media (min-width: 768px) {
+@media (min-width: 768px) {
   .burger-icon {
     display: none;
-  }
-
-  .desktop-navigation {
-    display: inline;
-  }
-
-  .desktop-navigation ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  .desktop-navigation ul li {
-    list-style: none;
   }
 
   .nav-link {
@@ -422,7 +409,7 @@ textarea:focus .form fieldset input {
   }
 
   .hero {
-    background-image: url('./img/Header-desktop.svg');
+    background-image: url('./img/header-desktop.png');
   }
 
   .hero-text {
