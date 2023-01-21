@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
   --purple: #6070ff;
-  --mainFont: 'Poppins', sans-serif;
+  --mainFont: "Poppins", sans-serif;
 }
 
 html {
@@ -42,7 +42,7 @@ header p {
 }
 
 .hero {
-  background-image: url('./img/hero.png');
+  background-image: url("./img/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 63.5rem;
@@ -286,7 +286,7 @@ a {
 
 .contact-h1 {
   margin-top: 103px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -299,7 +299,7 @@ a {
 .contact-text p {
   width: 327px;
   height: 102px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -398,80 +398,110 @@ textarea:focus .form fieldset input {
   justify-content: center;
 }
 
-@media screen and (max-width: 1250px) {
-  html {
-    font-size: 55%;
+@media screen and (max-width: 768px) {
+  header {
+    padding: 14px 7%;
   }
+  header p {
+    margin-left: -10px;
+  }
+  header .burger-icon {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 90%;
+  }
+  header #sections {
+    flex-flow: column;
+    padding: 2rem;
+    width: 63px;
+    height: 20px;
 
+    /* Body / 3 - Bolder */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+  }
   .hero {
-    padding: 150px;
+    background-image: url("./img/header-desktop.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 114px 24px;
   }
 
-  .cards-container .card {
-    display: grid;
-    grid-template-columns: 450px 450px;
-    justify-content: center;
+  .cards-container .card,
+  .cards-container .desktop-card {
+    width: 500px;
+    height: 325px;
+  }
+
+  .cards-container .card h2,
+  .cards-container .desktop-card h2 {
+    font-size: 32px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 12px;
     background: #fff;
-    width: 450px;
-    margin: 15px;
   }
 
-  .cards-container .card img {
-    width: 425px;
-    height: 420px;
-    margin: 15px;
-  }
-
-  .cards-container .card h2 {
-    width: 100%;
-  }
-
-  .cards-container .card p {
-    width: 100%;
-  }
-
-  .cards-container .box1 {
-    display: grid;
-    grid-template-columns: 450px 450px;
-    justify-content: center;
-    gap: 12px;
-    background: #fff;
-    width: 930px;
-  }
-
-  .about-content {
-    display: grid;
-    grid-template-columns: 450px 450px;
-    justify-content: center;
-    gap: 12px;
-    background: #fff;
-    width: 100%;
-  }
-
-  .about-content .container {
-    padding: 0;
+  .about .about-content {
     gap: 12px;
     margin: 24px;
-    width: 450px;
+    margin-top: 114px;
   }
 
-  .about-content .container p {
-    font-size: 16px;
-    width: 100%;
-  }
-
+  .about .languages,
   .about .language {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    padding-top: 0;
-    width: 450px;
-    margin: 24px;
+    margin-bottom: 113px;
   }
 
   .about .languages {
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-between;
     width: 100%;
+    padding: 24px 12px;
+  }
+  .contact {
+    border-top-left-radius: 75px;
+    width: 1440px;
+    height: 846px;
+  }
+
+  .contact-h1 {
+    margin-top: 103px;
+    align-self: center;
+  }
+  .contact-text {
+    margin-bottom: 100px;
+    width: 327px;
+  }
+  .form-fieldset {
+    width: 327px;
+  }
+  .button {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
   }
 }
