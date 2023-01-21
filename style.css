@@ -254,27 +254,28 @@ a {
 }
 
 .contact {
-  width: 375px;
   border: 2px solid #fff;
   border-top-left-radius: 75px;
   color: white;
   background-color: #6070ff;
-  background-image: url("./img/contact_form_mobile.png");
+  background-image: url("./img/contact_form_desktop.png");
   background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   left: 328px;
+  width: 100%;
+  grid-column: 1/-1;
+  justify-content: center;
+  background-position: left center;
+  background-size: contain;
 }
 
 .contact-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 375px;
+  width: 447px;
   height: 870px;
-  background-image: url("./img/contact_form_desktop.png");
 }
 
 .div-content {
@@ -313,10 +314,9 @@ a {
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 330px;
-  width: 327px;
-  gap: 24px;
+  justify-content: center;
+  padding: 0;
+  gap: 1.3rem;
 }
 
 .form-fieldset {
