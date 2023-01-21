@@ -398,74 +398,80 @@ textarea:focus .form fieldset input {
   justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .burger-icon {
-    display: none;
-  }
-
-  .nav-link {
-    color: #344563;
-    font-size: 1.5rem;
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 55%;
   }
 
   .hero {
-    background-image: url('./img/header-desktop.png');
+    padding: 150px;
   }
 
-  .hero-text {
-    padding: 0 11rem;
-  }
-
-  .card {
+  .cards-container .card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    max-width: 80%;
-    margin: 0 auto;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    width: 450px;
+    margin: 15px;
   }
 
-  .desktop-about {
+  .cards-container .card img {
+    width: 425px;
+    height: 420px;
+    margin: 15px;
+  }
+
+  .cards-container .card h2 {
+    width: 100%;
+  }
+
+  .cards-container .card p {
+    width: 100%;
+  }
+
+  .cards-container .box1 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    width: 930px;
   }
 
-  .languages {
-    margin-top: 0;
+  .about-content {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    width: 100%;
   }
 
-  .languages h3 {
-    margin-top: 0;
+  .about-content .container {
+    padding: 0;
+    gap: 12px;
+    margin: 24px;
+    width: 450px;
   }
 
-  .form-container__img {
-    display: none;
+  .about-content .container p {
+    font-size: 16px;
+    width: 100%;
   }
 
-  .form-container {
-    background-image: url('./img/contact-desktop-background.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .form-container__content {
-    max-width: 60%;
-    margin: 0 auto;
-  }
-
-  .form-container__form {
+  .about .language {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 12px;
+    padding-top: 0;
+    width: 450px;
+    margin: 24px;
   }
 
-  .form-container__form input,
-  textarea {
-    width: 380px;
-  }
-}
-
-@media (min-width: 950px) {
-  .form-container__content {
-    max-width: 40%;
-    margin: 0 auto;
+  .about .languages {
+    width: 100%;
   }
 }
