@@ -274,6 +274,7 @@ a {
   align-items: flex-start;
   width: 375px;
   height: 870px;
+  background-image: url("./img/contact_form_desktop.png");
 }
 
 .div-content {
@@ -398,47 +399,41 @@ textarea:focus .form fieldset input {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   header {
     padding: 14px 7%;
   }
+
   header p {
     margin-left: -10px;
   }
+
   header .burger-icon {
-    display: inline-block;
-    position: absolute;
-    top: 25px;
-    left: 90%;
+    visibility: hidden;
   }
+
   header #sections {
-    flex-flow: column;
+    flex-flow: row;
     padding: 2rem;
     width: 63px;
     height: 20px;
-
-    /* Body / 3 - Bolder */
-
+    gap: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    /* identical to box height, or 133% */
-
     display: flex;
     align-items: center;
     text-align: center;
-
-    /* Neutrals/N600 */
-
     color: #344563;
   }
+
   .hero {
-    background-image: url("./img/header-desktop.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 114px 24px;
+    background-image: url("./img/contact_form_desktop.png");
   }
 
   .cards-container .card,
@@ -482,26 +477,158 @@ textarea:focus .form fieldset input {
     width: 100%;
     padding: 24px 12px;
   }
+
   .contact {
     border-top-left-radius: 75px;
     width: 1440px;
     height: 846px;
+    background-image: url("./img/header-desktop.png");
   }
 
-  .contact-h1 {
+  .contact-h1 h1 {
     margin-top: 103px;
-    align-self: center;
+    text-align: center;
+    width: 801px;
   }
-  .contact-text {
+
+  .contact-text p {
     margin-bottom: 100px;
-    width: 327px;
+    width: 569px;
+    text-align: center;
   }
+
   .form-fieldset {
     width: 327px;
   }
+
   .button {
     display: flex;
     justify-content: flex-start;
     align-self: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    background-image: url("./img/hero.png");
+  }
+
+  .cards-container .card,
+  .cards-container .desktop-card {
+    width: 325px;
+  }
+
+  .cards-container .card {
+    height: 290px;
+  }
+
+  .cards-container .desktop-card {
+    height: 350px;
+  }
+
+  .cards-container .card img,
+  .cards-container .desktop-card img {
+    width: 295px;
+    height: 220px;
+  }
+
+  .cards-container .card h2 {
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+
+  .cards-container .desktop-card h2 {
+    display: flex;
+    text-align: start;
+    font-size: 32px;
+    width: 250px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+
+  .cards-container .card .tags,
+  .cards-container .desktop-card .tags {
+    gap: 8px;
+  }
+
+  .about-content .container p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .cards-container .card .tags p,
+  .cards-container .desktop-card .tags p {
+    font-size: 13px;
+    color: #344563;
+  }
+
+  .cards-container .card .tags {
+    margin-top: -20px;
+  }
+
+  .cards-container .card button,
+  .cards-container .desktop-card button {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    font-size: 17px;
+  }
+
+  .about-content {
+    margin: 7px;
+    width: 100%;
+  }
+
+  .about-content .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about-content .container h2 {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .about-content .container span {
+    margin-top: 19px;
+  }
+
+  .about .language,
+  .about .languages {
+    width: 100%;
+  }
+
+  .about .languages {
+    width: 100%;
+  }
+
+  .about .languages h3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 24px 12px;
+  }
+
+  .about .language {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    width: 70px;
+  }
+
+  .contact-div {
+    background-image: url("./img/contact_form_mobile.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
 }
