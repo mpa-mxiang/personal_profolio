@@ -570,3 +570,175 @@ textarea:focus .form fieldset input {
   }
 
 }
+
+@media screen and (max-width: 425px) {
+  header i {
+    visibility: visible;
+  }
+
+  header .sections a {
+    visibility: hidden;
+  }
+
+  .hero {
+    background-image: url("./img/hero.png");
+    height: 63.5rem;
+    width: 100%;
+  }
+  /* continue from here */
+  .hero h1 {
+    width: 920px;
+    height: 122px;
+  }
+
+  .hero p {
+    width: 920px;
+    height: 98px;
+  }
+
+  .cards-container {
+    width: 140rem;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    width: 1156px;
+    height: 496px;
+    margin-left: 70px;
+  }
+  .card #img-grid .card-image {
+    width: 544px;
+    height: 448px;
+    top: 24px;
+  }
+
+  .card #text-grid {
+    margin-top: 45px;
+    margin-left: 45px;
+  }
+
+  .card #text-grid h2 {
+    width: 496px;
+    height: 46px;
+  }
+
+  .card #text-grid .tags p {
+    width: 75px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .card #text-grid .tags span {
+    width: 75px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .card #text-grid .description {
+    margin-top: 45px;
+  }
+
+  .card #text-grid .technologies {
+    margin-top: 45px;
+  }
+
+  .card #text-grid button {
+    margin-top: 66px;
+    margin-left: -155px;
+  } 
+
+  .about-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 182px;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    width: 1440px;
+    height: 924px;
+  }
+
+  .about-content .container h2 {
+    width: 447px;
+    height: 114px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091E42;
+  }
+
+  .about-content .container p {
+    width: 447px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+  }
+
+  .about-content .skill-container .languages h3 {
+    height: 24px;
+    right: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .about-content .skill-container .language {
+    width: 122px;
+    height: 120px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .contact {
+    background-image: url("./img/contact_form_desktop.png");
+    width: 1290.66px;
+    height: 718.7px;
+    
+  }
+
+  .contact .contact-div {
+    display: contents;
+  }
+
+  .contact .contact-div .contact-text p {
+    width: 569px;
+    height: 102px;
+    margin-left: 350px;
+  }
+
+  .contact .contact-div .form {
+    align-self: center;
+  }
+
+  .contact .contact-div .form .form-fieldset fieldset {
+    width: 447px;
+  }
+
+  .contact .contact-div .form .button {
+    align-self: center;
+  }
+
+}
