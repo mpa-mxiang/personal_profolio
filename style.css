@@ -481,11 +481,70 @@ textarea:focus .form fieldset input {
   .card #text-grid button {
     margin-top: 66px;
     margin-left: -155px;
-  }
+  } 
 
-  .about {
+  .about-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 182px;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
     width: 1440px;
     height: 924px;
-    top: 4535px;
   }
+
+  .about-content .container h2 {
+    width: 447px;
+    height: 114px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091E42;
+  }
+
+  .about-content .container p {
+    width: 447px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+  }
+
+  .about-content .skill-container .languages h3 {
+    height: 24px;
+    right: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .about-content .skill-container .language {
+    width: 122px;
+    height: 120px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .contact {
+    background-image: url("./img/contact_form_desktop.png");
+    width: 1290.66px;
+    height: 718.7px;
+    
+  }
+
 }
