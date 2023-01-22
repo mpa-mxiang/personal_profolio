@@ -547,4 +547,26 @@ textarea:focus .form fieldset input {
     
   }
 
+  .contact .contact-div {
+    display: contents;
+  }
+
+  .contact .contact-div .contact-text p {
+    width: 569px;
+    height: 102px;
+    margin-left: 350px;
+  }
+
+  .contact .contact-div .form {
+    align-self: center;
+  }
+
+  .contact .contact-div .form .form-fieldset fieldset {
+    width: 447px;
+  }
+
+  .contact .contact-div .form .button {
+    align-self: center;
+  }
+
 }
