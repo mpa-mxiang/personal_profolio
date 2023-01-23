@@ -586,34 +586,33 @@ textarea:focus .form fieldset input {
     width: 100%;
   }
   /* continue from here */
+
   .hero h1 {
-    width: 920px;
-    height: 122px;
+    width: 327x;
+    height: 150px;
   }
 
   .hero p {
-    width: 920px;
-    height: 98px;
-  }
-
-  .cards-container {
-    width: 140rem;
+    width: 327px;
+    height: 146px;
   }
 
   .card {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 20px;
-    border: 1px solid #DFE1E6;
-    border-radius: 24px;
     width: 1156px;
     height: 496px;
     margin-left: 70px;
+    background-color: white;
+    padding: 2.5rem 1.5rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfe1e6;
   }
+
   .card #img-grid .card-image {
-    width: 544px;
-    height: 448px;
-    top: 24px;
+    width: 295px;
+    height: 220px;
+    top: 16px;
   }
 
   .card #text-grid {
