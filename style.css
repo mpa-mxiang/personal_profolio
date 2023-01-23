@@ -574,9 +574,10 @@ textarea:focus .form fieldset input {
 @media screen and (max-width: 425px) {
   header i {
     visibility: visible;
+    margin-left: 244px;
   }
 
-  header .sections a {
+  header #sections {
     visibility: hidden;
   }
 
@@ -585,7 +586,6 @@ textarea:focus .form fieldset input {
     height: 63.5rem;
     width: 100%;
   }
-  /* continue from here */
 
   .hero h1 {
     width: 327x;
@@ -597,16 +597,25 @@ textarea:focus .form fieldset input {
     height: 146px;
   }
 
+  .hero span {
+    line-height: 162px;
+  }
+
+  .hero .social-media {
+    margin-top: -54px;
+  }
+
   .card {
-    width: 1156px;
-    height: 496px;
-    margin-left: 70px;
-    background-color: white;
-    padding: 2.5rem 1.5rem;
-    border-radius: 25px;
     display: flex;
     flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+    width: 327px;
+    height: 552px;
+    background: #fff;
     border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-left: 10px;
   }
 
   .card #img-grid .card-image {
@@ -616,29 +625,50 @@ textarea:focus .form fieldset input {
   }
 
   .card #text-grid {
-    margin-top: 45px;
-    margin-left: 45px;
+    margin-top: -16px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 295px;
+    height: 288px;
+    order: 1;
   }
 
   .card #text-grid h2 {
-    width: 496px;
-    height: 46px;
+    width: 295px;
+    height: 36px;
+  }
+
+  /* continue from here */
+
+  .card #text-grid .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 236px;
+    height: 32px;
   }
 
   .card #text-grid .tags p {
-    width: 75px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    width: 55px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
   }
 
   .card #text-grid .tags span {
-    width: 75px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    width: 88px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    inline-size: auto;
   }
 
   .card #text-grid .description {
