@@ -394,3 +394,73 @@ textarea:focus .form fieldset input {
   order: 0;
   flex-grow: 0;
 }
+
+.contact {
+  background-image: url('./img/contactme.png'),url('./img/contact_form_mobile.png');
+  background-position: left top, right bottom;
+  background-repeat: repeat no-repeat;
+  background-size: cover;
+  height: 779px;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-h1 {
+  width: 801px;
+  height: 56px;
+
+  /* Header / 2 */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Neutrals/N0 */
+
+  color: #FFFFFF;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact input{
+  height: 48px;
+  radius: 8px;
+  /* Mono/White */
+  
+  background: #FFFFFF;
+  /* Base/100 */
+  
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 327px;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+}
+.contact textarea{
+  width: 327px;
+  height: 170px;
+  radius: 8px;
+  background: #FFFFFF;
+  /* Base/100 */
+  
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+}
