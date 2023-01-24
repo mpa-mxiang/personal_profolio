@@ -395,7 +395,3 @@ textarea:focus .form fieldset input {
   flex-grow: 0;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-}
