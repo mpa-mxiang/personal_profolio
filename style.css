@@ -275,14 +275,6 @@ a {
   height: 870px;
 }
 
-.div-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 375px;
-  height: 870px;
-}
-
 .contact-h1 {
   margin-top: 103px;
   font-family: "Poppins", sans-serif;
@@ -685,18 +677,16 @@ textarea:focus .form fieldset input {
   /* continue from here */
 
   .about-content {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 182px;
+    display: flex;
     border: 1px solid #DFE1E6;
     border-radius: 24px;
-    width: 1440px;
-    height: 924px;
+    width: 375px;
+    height: 1263px;
   }
 
   .about-content .container h2 {
-    width: 447px;
-    height: 114px;
+    width: 327px;
+    height: 101px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -704,12 +694,12 @@ textarea:focus .form fieldset input {
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #091E42;
+    color: #172b4d;
   }
 
   .about-content .container p {
-    width: 447px;
-    height: 102px;
+    width: 327px;
+    height: 144px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -722,44 +712,47 @@ textarea:focus .form fieldset input {
 
   .about-content .skill-container .languages h3 {
     height: 24px;
-    right: 78px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     align-items: center;
-    color: #344563;
+    color: #000000;
   }
 
   .about-content .skill-container .language {
-    width: 122px;
-    height: 120px;
-    background: #F7F7F9;
+    width: 303px;
+    height: 66.72px;
+    background: #f7f7f9;
     border-radius: 8px;
-    flex-direction: column;
-    display: inline-block;
+    display: flex;
   }
 
   .contact {
-    background-image: url("./img/contact_form_desktop.png");
-    width: 1290.66px;
-    height: 718.7px;
-    
+    background-image: url("./img/contact_form_mobile.png");
+    width: 375px;
+    height: 779px;
+    border: 1px;
+    background-position: right;
   }
 
   .contact .contact-div {
-    display: contents;
+    display: flex;
   }
 
   .contact .contact-div .contact-text p {
-    width: 569px;
+    width: 801px;
+    height: 56px;
+  }
+
+  .contact .contact-div .contact-text p {
+    width: 327px;
     height: 102px;
-    margin-left: 350px;
   }
 
   .contact .contact-div .form {
-    align-self: center;
+    align-self: none;
   }
 
   .contact .contact-div .form .form-fieldset fieldset {
@@ -767,7 +760,7 @@ textarea:focus .form fieldset input {
   }
 
   .contact .contact-div .form .button {
-    align-self: center;
+    align-self: left;
   }
 
 }
