@@ -401,7 +401,7 @@ textarea:focus .form fieldset input {
     visibility: hidden;
   }
 
-  header .sections a {
+  header #sections {
     color: #344563;
     gap: 32px;
   }
@@ -642,8 +642,6 @@ textarea:focus .form fieldset input {
     height: 36px;
   }
 
-  /* continue from here */
-
   .card #text-grid .tags {
     display: flex;
     flex-direction: row;
@@ -683,6 +681,8 @@ textarea:focus .form fieldset input {
     margin-top: 66px;
     margin-left: -155px;
   } 
+
+  /* continue from here */
 
   .about-content {
     display: grid;
