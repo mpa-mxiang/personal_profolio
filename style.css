@@ -3,6 +3,7 @@
 * {
   --purple: #6070ff;
   --mainFont: "Poppins", sans-serif;
+
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -420,16 +421,18 @@ textarea:focus .form fieldset input {
     width: 140rem;
   }
 
-  .card {
+  .card,
+  .card #special-div {
     display: grid;
     grid-template-columns: auto auto;
     padding: 20px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 1156px;
     height: 496px;
     margin-left: 70px;
   }
+
   .card #img-grid .card-image {
     width: 544px;
     height: 448px;
@@ -441,9 +444,41 @@ textarea:focus .form fieldset input {
     margin-left: 45px;
   }
 
+  .about-content .container h2 {
+    width: 447px;
+    height: 114px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+  }
+
   .card #text-grid h2 {
     width: 496px;
     height: 46px;
+  }
+
+  .about-content .container p {
+    width: 447px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+  }
+
+  .contact .contact-div .contact-text p {
+    width: 327px;
+    height: 102px;
+    margin-left: auto;
   }
 
   .card #text-grid .tags p {
@@ -473,48 +508,22 @@ textarea:focus .form fieldset input {
   .card #text-grid button {
     margin-top: 66px;
     margin-left: -155px;
-  } 
+  }
 
   .about-content {
     display: grid;
     grid-template-columns: auto auto;
     padding: 182px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 1440px;
     height: 924px;
   }
 
-  .about-content .container h2 {
-    width: 447px;
-    height: 114px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #091E42;
-  }
-
-  .about-content .container p {
-    width: 447px;
-    height: 102px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    order: 1;
-  }
-
   .about-content .skill-container .languages h3 {
     height: 24px;
     right: 78px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -526,7 +535,7 @@ textarea:focus .form fieldset input {
   .about-content .skill-container .language {
     width: 122px;
     height: 120px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     flex-direction: column;
     display: inline-block;
@@ -536,17 +545,10 @@ textarea:focus .form fieldset input {
     background-image: url("./img/contact_form_desktop.png");
     width: 1290.66px;
     height: 718.7px;
-    
   }
 
   .contact .contact-div {
     display: contents;
-  }
-
-  .contact .contact-div .contact-text p {
-    width: 569px;
-    height: 102px;
-    margin-left: 350px;
   }
 
   .contact .contact-div .form {
@@ -560,7 +562,6 @@ textarea:focus .form fieldset input {
   .contact .contact-div .form .button {
     align-self: center;
   }
-
 }
 
 @media screen and (max-width: 425px) {
@@ -580,7 +581,7 @@ textarea:focus .form fieldset input {
   }
 
   .hero h1 {
-    width: 327x;
+    width: 327px;
     height: 150px;
   }
 
@@ -595,6 +596,14 @@ textarea:focus .form fieldset input {
 
   .hero .social-media {
     margin-top: -54px;
+  }
+
+  .card #special {
+    visibility: visible;
+  }
+
+  .card #special-div {
+    visibility: hidden;
   }
 
   .card {
@@ -622,11 +631,22 @@ textarea:focus .form fieldset input {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
     width: 295px;
     height: 288px;
     order: 1;
+  }
+
+  .about-content .container h2 {
+    width: 327px;
+    height: 101px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
   }
 
   .card #text-grid h2 {
@@ -638,10 +658,22 @@ textarea:focus .form fieldset input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 12px;
     width: 236px;
     height: 32px;
+  }
+
+  .about-content .container p {
+    width: 327px;
+    height: 144px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
   }
 
   .card #text-grid .tags p {
@@ -666,59 +698,30 @@ textarea:focus .form fieldset input {
   }
 
   .card #text-grid .technologies {
-    margin-top: 0px;
+    margin-top: 1px;
   }
 
   .card #text-grid button {
-    margin-top: 66px;
-    margin-left: -155px;
-  } 
-
-  /* continue from here */
+    margin-top: 15px;
+    margin-left: -1px;
+  }
 
   .about-content {
     display: flex;
     flex-direction: column;
     padding: 182px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 375px;
     height: 1263px;
     margin-left: 10px;
-    padding: 16px;
     gap: 12px;
-  }
-
-  .about-content .container h2 {
-    width: 327px;
-    height: 101px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #091E42;
-  }
-
-  .about-content .container p {
-    width: 327px;
-    height: 144px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    order: 1;
   }
 
   .about-content .skill-container .languages h3 {
     height: 24px;
     right: 78px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -730,7 +733,7 @@ textarea:focus .form fieldset input {
   .about-content .skill-container .language {
     width: 303px;
     height: 66.72px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     display: flex;
     flex-direction: inherit;
@@ -749,12 +752,6 @@ textarea:focus .form fieldset input {
     margin-left: 15px;
   }
 
-  .contact .contact-div .contact-text p {
-    width: 327px;
-    height: 102px;
-    margin-left: auto;
-  }
-
   .contact .contact-div .form {
     align-self: none;
   }
@@ -766,5 +763,4 @@ textarea:focus .form fieldset input {
   .contact .contact-div .form .button {
     margin-right: 327px;
   }
-
 }
