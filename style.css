@@ -690,8 +690,8 @@ textarea:focus .form fieldset input {
   }
 
   .about-content .container h2 {
-    width: 447px;
-    height: 114px;
+    width: 327px;
+    height: 101px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -703,8 +703,8 @@ textarea:focus .form fieldset input {
   }
 
   .about-content .container p {
-    width: 447px;
-    height: 102px;
+    width: 327px;
+    height: 144px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -728,12 +728,12 @@ textarea:focus .form fieldset input {
   }
 
   .about-content .skill-container .language {
-    width: 122px;
-    height: 120px;
+    width: 303px;
+    height: 66.72px;
     background: #F7F7F9;
     border-radius: 8px;
-    flex-direction: column;
-    display: inline-block;
+    display: flex;
+    flex-direction: inherit;
   }
 
   .contact {
