@@ -280,7 +280,7 @@ a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 52px;
   text-align: center;
   align-items: center;
@@ -678,15 +678,20 @@ textarea:focus .form fieldset input {
 
   .about-content {
     display: flex;
+    flex-direction: column;
+    padding: 182px;
     border: 1px solid #DFE1E6;
     border-radius: 24px;
     width: 375px;
     height: 1263px;
+    margin-left: 10px;
+    padding: 16px;
+    gap: 12px;
   }
 
   .about-content .container h2 {
-    width: 327px;
-    height: 101px;
+    width: 447px;
+    height: 114px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -694,12 +699,12 @@ textarea:focus .form fieldset input {
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #172b4d;
+    color: #091E42;
   }
 
   .about-content .container p {
-    width: 327px;
-    height: 144px;
+    width: 447px;
+    height: 102px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -712,21 +717,23 @@ textarea:focus .form fieldset input {
 
   .about-content .skill-container .languages h3 {
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    right: 78px;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     align-items: center;
-    color: #000000;
+    color: #344563;
   }
 
   .about-content .skill-container .language {
-    width: 303px;
-    height: 66.72px;
-    background: #f7f7f9;
+    width: 122px;
+    height: 120px;
+    background: #F7F7F9;
     border-radius: 8px;
-    display: flex;
+    flex-direction: column;
+    display: inline-block;
   }
 
   .contact {
@@ -739,16 +746,13 @@ textarea:focus .form fieldset input {
 
   .contact .contact-div {
     display: flex;
-  }
-
-  .contact .contact-div .contact-text p {
-    width: 801px;
-    height: 56px;
+    margin-left: 15px;
   }
 
   .contact .contact-div .contact-text p {
     width: 327px;
     height: 102px;
+    margin-left: auto;
   }
 
   .contact .contact-div .form {
@@ -760,7 +764,7 @@ textarea:focus .form fieldset input {
   }
 
   .contact .contact-div .form .button {
-    align-self: left;
+    margin-right: 327px;
   }
 
 }
