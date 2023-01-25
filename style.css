@@ -463,7 +463,6 @@ textarea:focus .form fieldset input {
   .card#special #text-grid h2 {
     width: 496px;
     height: 46px;
-    margin-left: 46px;
   }
 
   .about-content .container p {
@@ -650,14 +649,31 @@ textarea:focus .form fieldset input {
     color: #091e42;
   }
 
-  .card h2,
-  .card#special h2 {
+  .card #text-grid, 
+  .card#special #text-grid {
+    margin-top: -9px;
+    margin-left: 6px;
+  }
+
+  .card #text-grid .technologies, 
+  .card#special #text-grid .technologies {
+    margin-top: -9px;
+  }
+
+  .card #text-grid h2,
+  .card#special #text-grid h2 {
     width: 295px;
     height: 36px;
   }
 
-  .card .tags,
-  .card#special .tags {
+  .card #text-grid .description,
+  .card#special #text-grid .description {
+    width: 295px;
+    height: 76px;
+  }
+
+  .card #text-grid .tags,
+  .card#special #text-grid .tags {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -679,8 +695,8 @@ textarea:focus .form fieldset input {
     order: 1;
   }
 
-  .card .tags p,
-  .card#special .tags p {
+  .card #text-grid .tags p,
+  .card#special #text-grid .tags p {
     width: 55px;
     height: 16px;
     font-weight: 600;
@@ -688,8 +704,8 @@ textarea:focus .form fieldset input {
     line-height: 16px;
   }
 
-  .card .tags span,
-  .card#special .tags span {
+  .card #text-grid .tags span,
+  .card#special #text-grid .tags span {
     width: 88px;
     height: 16px;
     font-weight: 500;
