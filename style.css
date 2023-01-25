@@ -710,11 +710,20 @@ textarea:focus .form fieldset input {
     flex-direction: column;
     padding: 182px;
     border: 1px solid #dfe1e6;
-    border-radius: 24px;
+    border-radius: 0 80px 0 0;
     width: 375px;
     height: 1263px;
-    margin-left: 10px;
+    margin-left: -1px;
     gap: 12px;
+    border-bottom-color: white;
+  }
+
+  .about-content .container {
+    margin: -32px -145px;
+  }
+
+  .about-content .skill-container {
+    margin: 60px -145px;
   }
 
   .about-content .skill-container .languages h3 {
