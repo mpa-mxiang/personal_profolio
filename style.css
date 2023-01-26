@@ -156,6 +156,8 @@ a {
   border-radius: 8px;
   font-size: 1.2rem;
   float: left;
+  text-align: center;
+  margin: 0.2rem;
 }
 
 .card button {
@@ -280,9 +282,6 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 52px;
-  text-align: center;
-  align-items: center;
-  color: #fff;
 }
 
 .contact-text p {
