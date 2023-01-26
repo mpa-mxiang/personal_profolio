@@ -425,7 +425,7 @@ textarea:focus .form fieldset input {
     border-radius: 24px;
     width: 1156px;
     height: 496px;
-    margin-left: 70px;
+    margin-left: 142px;
   }
 
   .card#special {
@@ -516,7 +516,7 @@ textarea:focus .form fieldset input {
   .card #text-grid button,
   .card#special #text-grid button {
     margin-top: 66px;
-    margin-left: -155px;
+    margin-left: -165px;
   }
 
   .about-content {
@@ -525,7 +525,7 @@ textarea:focus .form fieldset input {
     padding: 182px;
     border: 1px solid #dfe1e6;
     border-top-right-radius: 50px;
-    width: 1400px;
+    width: 1437px;
     height: 924px;
     border-bottom-color: white;
   }
@@ -553,8 +553,9 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_desktop.png");
-    width: 1440px;
+    width: 1444px;
     height: 846px;
+    margin: 0px -2px;
   }
 
   .contact .contact-div {
