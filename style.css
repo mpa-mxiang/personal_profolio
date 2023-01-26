@@ -553,12 +553,16 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_desktop.png");
-    width: 1290.66px;
-    height: 718.7px;
+    width: 1440px;
+    height: 846px;
   }
 
   .contact .contact-div {
     display: contents;
+  }
+
+  .contact .contact-div .contact-h1 {
+    align-self: center;
   }
 
   .contact .contact-div .form {
@@ -761,7 +765,7 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_mobile.png");
-    width: 375px;
+    width: 428px;
     height: 779px;
     border: 1px;
     background-position: right;
@@ -770,6 +774,21 @@ textarea:focus .form fieldset input {
   .contact .contact-div {
     display: flex;
     margin-left: 15px;
+  }
+
+  .contact .contact-div .contact-h1 {
+    align-items: center;
+    margin-left: -12px;
+  }
+
+  .contact-text {
+    margin-right: 17px;
+    align-self: center;
+  }
+
+  .contact .contact-div .form {
+    align-self: auto;
+    margin-right: 56px;
   }
 
   .contact .contact-div .form .form-fieldset {
