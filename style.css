@@ -95,6 +95,11 @@ a {
 
 .social-media li img {
   height: 20px;
+  transition: transform 300ms ease-in-out;
+}
+
+.social-media img:hover {
+  transform: scale(1.5);
 }
 
 .cards-container {
