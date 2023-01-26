@@ -42,7 +42,7 @@ header p {
   background-repeat: no-repeat;
   background-size: cover;
   height: 63.5rem;
-  width: 100%;
+  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,6 +98,7 @@ a {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 12rem;
+  width: 100%;
 }
 
 .card {
@@ -271,8 +272,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 447px;
-  height: 870px;
+  width: 100%;
 }
 
 .contact-h1 {
@@ -380,11 +380,6 @@ textarea:focus .form fieldset input {
   flex-grow: 0;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-}
-
 @media screen and (min-width: 426px) {
   header i {
     visibility: hidden;
@@ -397,12 +392,11 @@ textarea:focus .form fieldset input {
 
   .hero {
     background-image: url("./img/header-desktop.png");
-    width: 1397.4px;
-    height: 721.46px;
-    left: 34.6px;
-    top: 119px;
   }
 
+  .container {
+    margin-left: 47%;
+  }
   .hero h1 {
     width: 920px;
     height: 122px;
@@ -413,19 +407,14 @@ textarea:focus .form fieldset input {
     height: 98px;
   }
 
-  .cards-container {
-    width: 144rem;
-  }
-
   .card {
     display: flex;
     flex-direction: row;
     padding: 20px;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    width: 1156px;
-    height: 496px;
-    margin-left: 142px;
+    width: 90%;
+    margin-left: 57px;
   }
 
   .card#special {
@@ -525,8 +514,7 @@ textarea:focus .form fieldset input {
     padding: 182px;
     border: 1px solid #dfe1e6;
     border-top-right-radius: 50px;
-    width: 1440px;
-    height: 924px;
+    width: 100%;
     border-bottom-color: white;
   }
 
@@ -553,8 +541,6 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_desktop.png");
-    width: 1440px;
-    height: 846px;
   }
 
   .contact .contact-div {
@@ -595,9 +581,7 @@ textarea:focus .form fieldset input {
 
   .hero {
     background-image: url("./img/hero.png");
-    height: 63.5rem;
-    width: 100%;
-    margin-left: 24px;
+    width: 61rem;
   }
 
   .hero h1 {
@@ -618,6 +602,10 @@ textarea:focus .form fieldset input {
     margin-top: -54px;
   }
 
+  .cards-container {
+    width: 61rem;
+  }
+
   .card,
   .card#special {
     display: flex;
@@ -629,7 +617,7 @@ textarea:focus .form fieldset input {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-left: 10px;
+    margin-left: 118px;
   }
 
   .card .card-image,
@@ -727,9 +715,7 @@ textarea:focus .form fieldset input {
     padding: 182px;
     border: 1px solid #dfe1e6;
     border-radius: 0 80px 0 0;
-    width: 430px;
-    height: 1263px;
-    margin-left: -1px;
+    width: 61rem;
     gap: 12px;
     border-bottom-color: white;
   }
@@ -755,7 +741,6 @@ textarea:focus .form fieldset input {
   }
 
   .about-content .skill-container .language {
-    width: 303px;
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
@@ -765,10 +750,9 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_mobile.png");
-    width: 428px;
-    height: 779px;
     border: 1px;
     background-position: right;
+    width: 61rem;
   }
 
   .contact .contact-div {
@@ -778,7 +762,7 @@ textarea:focus .form fieldset input {
 
   .contact .contact-div .contact-h1 {
     align-items: center;
-    margin-left: -12px;
+    margin-left: 100px;
   }
 
   .contact-text {
@@ -788,7 +772,7 @@ textarea:focus .form fieldset input {
 
   .contact .contact-div .form {
     align-self: auto;
-    margin-right: 56px;
+    margin-left: 57px;
   }
 
   .contact .contact-div .form .form-fieldset {
@@ -798,9 +782,5 @@ textarea:focus .form fieldset input {
 
   .contact .contact-div .form .form-fieldset fieldset {
     width: 447px;
-  }
-
-  .contact .contact-div .form .button {
-    margin-right: 310px;
   }
 }
