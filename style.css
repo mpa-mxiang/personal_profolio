@@ -525,7 +525,7 @@ textarea:focus .form fieldset input {
     padding: 182px;
     border: 1px solid #dfe1e6;
     border-top-right-radius: 50px;
-    width: 1437px;
+    width: 1440px;
     height: 924px;
     border-bottom-color: white;
   }
@@ -553,7 +553,7 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_desktop.png");
-    width: 1444px;
+    width: 1440px;
     height: 846px;
     margin: 0px -2px;
   }
