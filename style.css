@@ -101,6 +101,7 @@ a {
 .social-media img:hover {
   transform: scale(1.5);
 }
+
 .cards-container {
   background-color: #e5e5e5;
   padding: 11rem 1.5rem;
