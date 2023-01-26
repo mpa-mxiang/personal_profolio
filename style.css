@@ -385,7 +385,7 @@ textarea:focus .form fieldset input {
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
   header i {
     visibility: hidden;
   }
@@ -414,7 +414,7 @@ textarea:focus .form fieldset input {
   }
 
   .cards-container {
-    width: 140rem;
+    width: 144rem;
   }
 
   .card {
