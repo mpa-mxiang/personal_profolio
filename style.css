@@ -393,7 +393,7 @@ textarea:focus .form fieldset input {
   header #sections a {
     color: #344563;
     padding: 6px;
-    display: contents;
+    display: table-cell;
   }
 
   .hero {
