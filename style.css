@@ -403,12 +403,10 @@ textarea:focus .form fieldset input {
 
   .hero h1 {
     width: 920px;
-    height: 122px;
   }
 
   .hero p {
     width: 920px;
-    height: 98px;
   }
 
   .cards-container {
@@ -438,7 +436,6 @@ textarea:focus .form fieldset input {
 
   .about-content .container h2 {
     width: 447px;
-    height: 114px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -463,7 +460,6 @@ textarea:focus .form fieldset input {
 
   .about-content .container p {
     width: 447px;
-    height: 102px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -804,7 +800,17 @@ textarea:focus .form fieldset input {
 @media screen and (min-width: 1440px) {
   .hero {
     width: 290rem;
+    height: 100rem;
   }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero p {
+    font-size: 2.5rem;
+  }
+
 
   .about {
     width: 290rem;
@@ -825,23 +831,63 @@ textarea:focus .form fieldset input {
   .card #text-grid h2,
   .card#special #text-grid h2 {
     font-size: xxx-large;
+    margin-left: 15px;
+  }
+
+  .card #text-grid .tags,
+  .card#special #text-grid .tags {
+    margin-left: 15px;
+  }
+
+  .card #text-grid .tags p,
+  .card#special #text-grid .tags p,
+  .card #text-grid .tags span,
+  .card#special #text-grid .tags span {
+    font-size: 40px;
+  }
+
+  .card #text-grid .tags span,
+  .card#special #text-grid .tags span {
+    margin-left: 12px;
+  }
+
+  .bullet {
+    width: 6px;
+    transform: scale(2.5);
+    margin-left: 117px;
   }
 
   .card #text-grid .description,
   .card#special #text-grid .description {
     font-size: xxx-large;
     width: auto;
+    margin-left: 15px;
   }
 
   .technologies li {
     font-size: xx-large;
     margin: 1.3rem;
+    padding: 1.3rem;
   }
 
   .card #text-grid button,
   .card#special #text-grid button {
-    margin-top: 105px;
-    margin-left: -397px;
+    margin-top: 144px;
+    margin-left: -358px;
+    transform: scale(2.5);
+  }
+
+  .about-content .container h2 {
+    font-size: 5rem;
+  }
+
+  .about-content .container p {
+    font-size: 2.6rem;
+  }
+  
+  .about-content button {
+    transform: scale(2);
+    margin-left: 5rem;
   }
 
   .contact {
