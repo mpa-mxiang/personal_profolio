@@ -459,7 +459,6 @@ textarea:focus .form fieldset input {
   .card #text-grid h2,
   .card#special #text-grid h2 {
     width: 496px;
-    height: 46px;
   }
 
   .about-content .container p {
@@ -484,7 +483,6 @@ textarea:focus .form fieldset input {
   .card #text-grid .tags p,
   .card#special #text-grid .tags p {
     width: 75px;
-    height: 24px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -493,7 +491,6 @@ textarea:focus .form fieldset input {
   .card #text-grid .tags span,
   .card#special #text-grid .tags span {
     width: 75px;
-    height: 24px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -503,7 +500,6 @@ textarea:focus .form fieldset input {
   .card #text-grid .description,
   .card#special #text-grid .description {
     width: 496px;
-    height: 50px;
   }
 
   .card #text-grid .technologies,
@@ -829,6 +825,23 @@ textarea:focus .form fieldset input {
   .card #text-grid h2,
   .card#special #text-grid h2 {
     font-size: xxx-large;
+  }
+
+  .card #text-grid .description,
+  .card#special #text-grid .description {
+    font-size: xxx-large;
+    width: auto;
+  }
+
+  .technologies li {
+    font-size: xx-large;
+    margin: 1.3rem;
+  }
+
+  .card #text-grid button,
+  .card#special #text-grid button {
+    margin-top: 105px;
+    margin-left: -397px;
   }
 
   .contact {
