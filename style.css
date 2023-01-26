@@ -422,7 +422,7 @@ textarea:focus .form fieldset input {
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 90%;
-    margin-left: 30px;
+    margin-left: 70px;
   }
 
   .card#special {
@@ -432,8 +432,8 @@ textarea:focus .form fieldset input {
   .card .card-image,
   .card#special .card-image {
     width: 544px;
-    height: 448px;
     top: 24px;
+    flex: 1 1 50%;
   }
 
   .about-content .container h2 {
@@ -453,6 +453,7 @@ textarea:focus .form fieldset input {
   .card#special #text-grid {
     margin-top: 45px;
     margin-left: 30px;
+    flex: 1 1 50%;
   }
 
   .card #text-grid h2,
@@ -825,8 +826,12 @@ textarea:focus .form fieldset input {
     margin-left: 120px;
   }
 
+  .card #text-grid h2,
+  .card#special #text-grid h2 {
+    font-size: xxx-large;
+  }
+
   .contact {
     width: 290rem;
   }
 }
-
