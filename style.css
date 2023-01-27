@@ -17,13 +17,16 @@ html,
 body {
   padding: 0;
   margin: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 85%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -388,6 +391,12 @@ textarea:focus .form fieldset input {
 @media screen and (min-width: 426px) {
   header i {
     visibility: hidden;
+  }
+
+  header #sections {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
   }
 
   header #sections a {
@@ -794,103 +803,5 @@ textarea:focus .form fieldset input {
 
   .contact .contact-div .form .form-fieldset fieldset {
     width: 447px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hero {
-    width: 290rem;
-    height: 100rem;
-  }
-
-  .hero h1 {
-    font-size: 4rem;
-  }
-
-  .hero p {
-    font-size: 2.5rem;
-  }
-
-
-  .about {
-    width: 290rem;
-  }
-
-  .about-content {
-    padding-left: inherit;
-  }
-
-  .cards-container {
-    width: 290rem;
-  }
-
-  .card {
-    margin-left: 120px;
-  }
-
-  .card #text-grid h2,
-  .card#special #text-grid h2 {
-    font-size: xxx-large;
-    margin-left: 15px;
-  }
-
-  .card #text-grid .tags,
-  .card#special #text-grid .tags {
-    margin-left: 15px;
-  }
-
-  .card #text-grid .tags p,
-  .card#special #text-grid .tags p,
-  .card #text-grid .tags span,
-  .card#special #text-grid .tags span {
-    font-size: 40px;
-  }
-
-  .card #text-grid .tags span,
-  .card#special #text-grid .tags span {
-    margin-left: 12px;
-  }
-
-  .bullet {
-    width: 6px;
-    transform: scale(2.5);
-    margin-left: 117px;
-  }
-
-  .card #text-grid .description,
-  .card#special #text-grid .description {
-    font-size: xxx-large;
-    width: auto;
-    margin-left: 15px;
-  }
-
-  .technologies li {
-    font-size: xx-large;
-    margin: 1.3rem;
-    padding: 1.3rem;
-  }
-
-  .card #text-grid button,
-  .card#special #text-grid button {
-    margin-top: 144px;
-    margin-left: -358px;
-    transform: scale(2.5);
-  }
-
-  .about-content .container h2 {
-    font-size: 5rem;
-  }
-
-  .about-content .container p {
-    font-size: 2.6rem;
-  }
-  
-  .about-content button {
-    transform: scale(2);
-    margin-left: 5rem;
-  }
-
-  .contact {
-    width: 290rem;
   }
 }
