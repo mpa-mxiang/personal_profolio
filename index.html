@@ -1,37 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/e52d74ec85.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Jiachun's Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <p><a href="#">My Logo</a></p>
-      <nav class="burger-icon">
-        <i class="fa-solid fa-bars"></i>
-      </nav>
-    </header>
-    <section class="hero">
-      <div class="container hero-text">
-        <h1>I'm Jiachun, Glad to see you</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/e52d74ec85.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Jiachun's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <p><a href="#">My Logo</a></p>
+    <nav class="burger-icon">
+      <i class="fa-solid fa-bars"></i>
+    </nav>
+    <nav id="sections">
+      <a href="#">Profolio</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="container hero-text">
+      <h1>I'm Jiachun<br> Glad to see you</h1>
+      <p>
+        I'm a software developer, I can help you build a product, feature or
+        Website. Look trough some of my work and experience, if you like what
+        you see and have a project you need coded, don't hesitate to contact
+        me.
+      </p>
+      <span>LET'S CONNECT</span>
+      <ul class="social-media">
+        <li>
+          <a href="#"><img src="./img/twitter.png" alt="twitter icon" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jiachun-lily-xiang-1b197213a/"><img src="./img/linkedin.png"
+              alt="linkedin icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/M.png" alt="M icon" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/mpa-mxiang"><img src="./img/git.png" alt="github icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/hand.png" alt="hand icon" /></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="cards-container">
+    <div class="card">
+      <img class="card-image" src="./img/portfolio1.jpg" alt="webpage image" id="p1" />
+      <div id="text-grid">
+        <h2>Tonic</h2>
+        <div class="tags">
+          <p>CANOPY</p>
+          <img class="bullet" src="./img/Counter.png" alt="bullet" />
+          <span>Back End Dev</span>
+          <img class="bullet" src="./img/Counter.png" alt="bullet" />
+          <span>2015</span>
+        </div>
+        <p class="description">
+          A daily selection of privately personalized reads. No accounts or
+          sign-ups required.
+        </p>
+        <ul class="technologies">
+          <li>html</li>
+          <li>css</li>
+          <li>javaScript</li>
+        </ul>
+
+        <div class="click">
+          <button type="button">See Project</button>
+        </div>
+      </div>
+    </div>
+    <div class="card" id="special">
+
+      <img class="card-image" src="./img/portfolio2.jpg" alt="webpage image" />
+      <div id="text-grid">
+        <h2>Tonic</h2>
+        <div class="tags">
+          <p>CANOPY</p>
+          <img class="bullet" src="./img/Counter.png" alt="bullet" />
+          <span>Back End Dev</span>
+          <img class="bullet" src="./img/Counter.png" alt="bullet" />
+          <span>2015</span>
+        </div>
+        <p class="description">
+          A daily selection of privately personalized reads. No accounts or
+          sign-ups required.
+        </p>
+        <ul class="technologies">
+          <li>html</li>
+          <li>css</li>
+          <li>javaScript</li>
+        </ul>
+        <div class="click">
+          <button type="button">See Project</button>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-image" src="./img/portfolio3.jpg" alt="webpage image" />
+      <div id="text-grid">
+        <h2>Tonic</h2>
+        <div class="tags">
+          <p>CANOPY</p>
+          <img class="bullet" src="./img/Counter.png" alt="bullet" />
+          <span>Back End Dev</span>
+          <img class="bullet" src="./img/Counter.png" alt="bullet" />
+          <span>2015</span>
+        </div>
+        <p class="description">
+          A daily selection of privately personalized reads. No accounts or
+          sign-ups required.
+        </p>
+        <ul class="technologies">
+          <li>html</li>
+          <li>css</li>
+          <li>javaScript</li>
+        </ul>
+        <div class="click">
+          <button type="button">See Project</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="about-content">
+      <div class="container">
+        <h2>About<br /> myself</h2>
         <p>
-          I'm a software developer, I can help you build a product, feature or
-          Website. Look trough some of my work and experience, if you like what
-          you see and have a project you need coded, don't hesitate to contact
-          me.
+          Hello I'm a software developer! I can help you build a product,
+          feature or website. Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don't
+          hesitate to contact me.
         </p>
         <span>LET'S CONNECT</span>
         <ul class="social-media">
@@ -39,235 +151,107 @@
             <a href="#"><img src="./img/twitter.png" alt="twitter icon" /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/jiachun-lily-xiang-1b197213a/"
-              ><img src="./img/linkedin.png" alt="linkedin icon"
-            /></a>
+            <a href="https://www.linkedin.com/in/jiachun-lily-xiang-1b197213a/"><img src="./img/linkedin.png"
+                alt="linkedin icon" /></a>
           </li>
           <li>
             <a href="#"><img src="./img/M.png" alt="M icon" /></a>
           </li>
           <li>
-            <a href="https://github.com/mpa-mxiang"
-              ><img src="./img/git.png" alt="github icon"
-            /></a>
+            <a href="https://github.com/mpa-mxiang"><img src="./img/git.png" alt="github icon" /></a>
           </li>
           <li>
             <a href="#"><img src="./img/hand.png" alt="hand icon" /></a>
           </li>
         </ul>
+        <a><button type="button">Get my resume</button></a>
       </div>
-    </section>
-    <section class="cards-container">
-      <div class="card">
-        <img
-          class="card-image"
-          src="./img/portfolio1.jpg"
-          alt="webpage image"
-        />
-        <h2>Tonic</h2>
-        <div class="tags">
-          <p>CANOPY</p>
-          <img class="bullet" src="./img/Counter.png" alt="bullet" />
-          <span>Back End Dev</span>
-          <img class="bullet" src="./img/Counter.png" alt="bullet" />
-          <span>2015</span>
+
+      <div class="skill-container">
+        <div class="languages">
+          <h3>Languages</h3>
+          <i class="fa-solid fa-chevron-down fa-xl"></i>
         </div>
-        <p class="description">
-          A daily selection of privately personalized reads. No accounts or
-          sign-ups required.
+        <div class="language">
+          <img class="language-img" src="./img/js.png" alt="JavaScript image" />
+          <p>JavaScript</p>
+        </div>
+        <div class="language">
+          <img class="language-img" src="./img/html.jpg" alt="JavaScript image" />
+          <p>HTML</p>
+        </div>
+        <div class="language">
+          <img class="language-img" src="./img/css.jpg" alt="JavaScript image" />
+          <p>CSS</p>
+        </div>
+        <div class="languages">
+          <h3>Frameworks</h3>
+          <i class="fa-solid fa-chevron-right fa-xl"></i>
+        </div>
+        <hr />
+        <div class="languages">
+          <h3>Skills</h3>
+          <i class="fa-solid fa-chevron-right fa-xl"></i>
+        </div>
+        <hr />
+      </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-div" >
+      <div class="contact-h1">
+        <h1>Contact me</h1>
+      </div>
+      <div class="contact-text">
+        <p>
+          If you have an application you are interested in developing, a
+          feature that you need built or a project that needs coding. I'd
+          love to help with it.
         </p>
-        <ul class="technologies">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
+      </div>
+
+      <form
+        class="form"
+        action="https://formspree.io/f/xeqwolgk"
+        method="post"
+      >
+      <div class="form-fieldset">
         <div>
-          <button type="button">See Project</button>
+          <fieldset>
+            <input
+              type="text"
+              placeholder="Yeremias"
+              maxlength="30"
+              required
+            />
+          </fieldset>
         </div>
-      </div>
-      <div class="card">
-        <img
-          class="card-image"
-          src="./img/portfolio2.jpg"
-          alt="webpage image"
-        />
-        <h2>Tonic</h2>
-        <div class="tags">
-          <p>CANOPY</p>
-          <img class="bullet" src="./img/Counter.png" alt="bullet" />
-          <span>Back End Dev</span>
-          <img class="bullet" src="./img/Counter.png" alt="bullet" />
-          <span>2015</span>
-        </div>
-        <p class="description">
-          A daily selection of privately personalized reads. No accounts or
-          sign-ups required.
-        </p>
-        <ul class="technologies">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
         <div>
-          <button type="button">See Project</button>
+          <fieldset>
+            <input type="email" placeholder="natajayanj14@gmail.com" required />
+          </fieldset>
         </div>
-      </div>
-      <div class="card">
-        <img
-          class="card-image"
-          src="./img/portfolio3.jpg"
-          alt="webpage image"
-        />
-        <h2>Tonic</h2>
-        <div class="tags">
-          <p>CANOPY</p>
-          <img class="bullet" src="./img/Counter.png" alt="bullet" />
-          <span>Back End Dev</span>
-          <img class="bullet" src="./img/Counter.png" alt="bullet" />
-          <span>2015</span>
-        </div>
-        <p class="description">
-          A daily selection of privately personalized reads. No accounts or
-          sign-ups required.
-        </p>
-        <ul class="technologies">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
         <div>
-          <button type="button">See Project</button>
+          <fieldset>
+            <textarea
+              name="comment"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
+          </fieldset>
         </div>
       </div>
-    </section>
-    <section class="about">
-      <div class="about-content">
-        <div class="container">
-          <h2>About myself</h2>
-          <p>
-            Hello I'm a software developer! I can help you build a product,
-            feature or website. Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don't
-            hesitate to contact me.
-          </p>
-          <span>LET'S CONNECT</span>
-          <ul class="social-media">
-            <li>
-              <a href="#"><img src="./img/twitter.png" alt="twitter icon" /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/jiachun-lily-xiang-1b197213a/"
-                ><img src="./img/linkedin.png" alt="linkedin icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/M.png" alt="M icon" /></a>
-            </li>
-            <li>
-              <a href="https://github.com/mpa-mxiang"
-                ><img src="./img/git.png" alt="github icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/hand.png" alt="hand icon" /></a>
-            </li>
-          </ul>
-          <a><button type="button">Get my resume</button></a>
+        <button class="button" type="submit">Get in touch</button>
 
-          <div class="languages">
-            <h3>Languages</h3>
-            <i class="fa-solid fa-chevron-down fa-xl"></i>
-          </div>
-          <div class="language">
-            <img
-              class="language-img"
-              src="./img/js.png"
-              alt="JavaScript image"
-            />
-            <p>JavaScript</p>
-          </div>
-          <div class="language">
-            <img
-              class="language-img"
-              src="./img/html.jpg"
-              alt="JavaScript image"
-            />
-            <p>HTML</p>
-          </div>
-          <div class="language">
-            <img
-              class="language-img"
-              src="./img/css.jpg"
-              alt="JavaScript image"
-            />
-            <p>CSS</p>
-          </div>
-          <div class="languages">
-            <h3>Frameworks</h3>
-            <i class="fa-solid fa-chevron-right fa-xl"></i>
-          </div>
-          <div class="languages">
-            <h3>Skills</h3>
-            <i class="fa-solid fa-chevron-right fa-xl"></i>
-          </div>
-        </div>
-      </div>
-      </section>
+      </form>
+    </div>
+        
 
-      <section class="contact">
-        <div class="contact-div" >
-          <div class="div-content">
-          <div class="contact-h1">
-            <h1>Contact me</h1>
-          </div>
-          <div class="contact-text">
-            <p>
-              If you have an application you are interested in developing, a
-              feature that you need built or a project that needs coding. I'd
-              love to help with it.
-            </p>
-          </div>
+</section>
+</body>
 
-          <form
-            class="form"
-            action="https://formspree.io/f/xeqwolgk"
-            method="post"
-          >
-          <div class="form-fieldset">
-            <div>
-              <fieldset>
-                <input
-                  type="text"
-                  placeholder="Yeremias"
-                  maxlength="30"
-                  required
-                />
-              </fieldset>
-            </div>
-            <div>
-              <fieldset>
-                <input type="email" placeholder="natajayanj14@gmail.com" required />
-              </fieldset>
-            </div>
-            <div>
-              <fieldset>
-                <textarea
-                  name="comment"
-                  placeholder="Write your message here"
-                  maxlength="500"
-                  required
-                ></textarea>
-              </fieldset>
-            </div>
-          </div>
-            <button class="button" type="submit">Get in touch</button>
-
-          </form>
-        </div>
-            
-
-    </section>
+</html>
 
   </body>
 </html>

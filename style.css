@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-:root {
+* {
   --purple: #6070ff;
-  --mainFont: 'Poppins', sans-serif;
+  --mainFont: "Poppins", sans-serif;
+
+  box-sizing: inherit;
 }
 
 html {
@@ -15,19 +17,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  display: grid;
+  place-items: center;
+  width: 100%;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 85%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -39,14 +38,19 @@ nav {
 
 header p {
   font-weight: 700;
+  margin-left: 114px;
+}
+
+.fa-solid {
+  margin-left: 400px;
 }
 
 .hero {
-  background-image: url('./img/hero.png');
+  background-image: url("./img/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 63.5rem;
-  width: 100%;
+  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +71,6 @@ header p {
 }
 
 .container {
-  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -103,6 +106,7 @@ a {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 12rem;
+  width: 100%;
 }
 
 .card {
@@ -256,51 +260,42 @@ a {
 }
 
 .contact {
-  width: 375px;
   border: 2px solid #fff;
   border-top-left-radius: 75px;
   color: white;
   background-color: #6070ff;
-  background-image: url("./img/contact_form_mobile.png");
+  background-image: url("./img/contact_form_desktop.png");
   background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   left: 328px;
+  width: 100%;
+  grid-column: 1/-1;
+  justify-content: center;
+  background-position: left center;
+  background-size: contain;
 }
 
 .contact-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 375px;
-  height: 870px;
-}
-
-.div-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 375px;
-  height: 870px;
+  width: 100%;
 }
 
 .contact-h1 {
   margin-top: 103px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-size: 25px;
-  text-align: center;
-  align-items: center;
-  color: #fff;
-  padding-right: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
 }
 
 .contact-text p {
   width: 327px;
   height: 102px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -313,10 +308,9 @@ a {
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 330px;
-  width: 327px;
-  gap: 24px;
+  justify-content: center;
+  padding: 0;
+  gap: 1.3rem;
 }
 
 .form-fieldset {
@@ -392,4 +386,422 @@ textarea:focus .form fieldset input {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+@media screen and (min-width: 426px) {
+  header i {
+    visibility: hidden;
+  }
+
+  header #sections {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header #sections a {
+    color: #344563;
+    padding: 6px;
+    display: table-cell;
+  }
+
+  .hero {
+    background-image: url("./img/header-desktop.png");
+    width: 100%;
+  }
+
+  .hero h1 {
+    width: 920px;
+  }
+
+  .hero p {
+    width: 920px;
+  }
+
+  .cards-container {
+    width: 100%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    width: 90%;
+    margin-left: 70px;
+  }
+
+  .card#special {
+    flex-direction: row-reverse;
+  }
+
+  .card .card-image,
+  .card#special .card-image {
+    width: 544px;
+    top: 24px;
+    flex: 1 1 50%;
+  }
+
+  .about-content .container h2 {
+    width: 447px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .card #text-grid,
+  .card#special #text-grid {
+    margin-top: 45px;
+    margin-left: 30px;
+    flex: 1 1 50%;
+  }
+
+  .card #text-grid h2,
+  .card#special #text-grid h2 {
+    width: 496px;
+  }
+
+  .about-content .container p {
+    width: 447px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+  }
+
+  .contact .contact-div .contact-text p {
+    width: 569px;
+    height: 102px;
+    margin: auto;
+  }
+
+  .card #text-grid .tags p,
+  .card#special #text-grid .tags p {
+    width: 75px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .card #text-grid .tags span,
+  .card#special #text-grid .tags span {
+    width: 75px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    inline-size: auto;
+  }
+
+  .card #text-grid .description,
+  .card#special #text-grid .description {
+    width: 496px;
+  }
+
+  .card #text-grid .technologies,
+  .card#special #text-grid .technologies {
+    margin-top: 45px;
+  }
+
+  .card #text-grid button,
+  .card#special #text-grid button {
+    margin-top: 66px;
+    margin-left: -165px;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 182px;
+    border: 1px solid #dfe1e6;
+    border-top-right-radius: 50px;
+    width: 100%;
+    border-bottom-color: white;
+  }
+
+  .about-content .skill-container .languages h3 {
+    height: 24px;
+    right: 78px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .about-content .skill-container .language {
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .contact {
+    background-image: url("./img/contact_form_desktop.png");
+    width: 100%;
+  }
+
+  .contact .contact-div {
+    display: contents;
+  }
+
+  .contact .contact-div .contact-h1 {
+    align-self: center;
+  }
+
+  .contact .contact-div .form {
+    align-self: center;
+  }
+
+  .contact .contact-div .form .form-fieldset {
+    padding: 35px;
+    margin-left: 105px;
+  }
+
+  .contact .contact-div .form .form-fieldset fieldset {
+    width: 447px;
+  }
+
+  .contact .contact-div .form .button {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header i {
+    visibility: visible;
+    margin-left: 244px;
+  }
+
+  header #sections {
+    visibility: hidden;
+  }
+
+  .hero {
+    background-image: url("./img/hero.png");
+    width: 66rem;
+  }
+
+  .hero h1 {
+    width: 327px;
+    height: 150px;
+  }
+
+  .hero p {
+    width: 327px;
+    height: 146px;
+  }
+
+  .hero span {
+    line-height: 162px;
+  }
+
+  .hero .social-media {
+    margin-top: -54px;
+  }
+
+  .cards-container {
+    width: 66rem;
+  }
+
+  .card,
+  .card#special {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+    width: 327px;
+    height: 552px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-left: 118px;
+  }
+
+  .card .card-image,
+  .card#special .card-image {
+    width: 295px;
+    height: 220px;
+  }
+
+  .about-content .container h2 {
+    width: 327px;
+    height: 101px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .card #text-grid,
+  .card#special #text-grid {
+    margin-top: -9px;
+    margin-left: 6px;
+  }
+
+  .card #text-grid .click,
+  .card#special #text-grid .click {
+    margin: 7.2rem;
+    margin-left: auto;
+  }
+
+  .card #text-grid .technologies,
+  .card#special #text-grid .technologies {
+    margin-top: -9px;
+  }
+
+  .card #text-grid h2,
+  .card#special #text-grid h2 {
+    width: 295px;
+    height: 36px;
+  }
+
+  .card #text-grid .description,
+  .card#special #text-grid .description {
+    width: 295px;
+    height: 76px;
+  }
+
+  .card #text-grid .tags,
+  .card#special #text-grid .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 236px;
+    height: 32px;
+  }
+
+  .about-content .container p {
+    width: 327px;
+    height: 144px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+  }
+
+  .contact .contact-div .contact-text p {
+    width: 327px;
+    height: 102px;
+  }
+
+  .card #text-grid .tags p,
+  .card#special #text-grid .tags p {
+    width: 55px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .card #text-grid .tags span,
+  .card#special #text-grid .tags span {
+    width: 88px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    inline-size: auto;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    padding: 182px;
+    border: 1px solid #dfe1e6;
+    border-radius: 0 80px 0 0;
+    width: 66rem;
+    gap: 12px;
+    border-bottom-color: white;
+  }
+
+  .about-content .container {
+    margin: -32px -145px;
+  }
+
+  .about-content .skill-container {
+    margin: 60px -145px;
+  }
+
+  .about-content .skill-container .languages h3 {
+    height: 24px;
+    right: 78px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .about-content .skill-container .language {
+    height: 66.72px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: inherit;
+  }
+
+  .contact {
+    background-image: url("./img/contact_form_mobile.png");
+    border: 1px;
+    background-position: right;
+    width: 66rem;
+  }
+
+  .contact .contact-div {
+    display: flex;
+    margin-left: 15px;
+  }
+
+  .contact .contact-div .contact-h1 {
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .contact-text {
+    margin-right: 17px;
+    align-self: center;
+  }
+
+  .contact .contact-div .form {
+    align-self: auto;
+    margin-left: 57px;
+  }
+
+  .contact .contact-div .form .form-fieldset {
+    padding: 45px;
+    margin-left: -6px;
+  }
+
+  .contact .contact-div .form .form-fieldset fieldset {
+    width: 447px;
+  }
 }
