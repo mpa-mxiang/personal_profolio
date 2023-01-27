@@ -398,7 +398,7 @@ textarea:focus .form fieldset input {
 
   .hero {
     background-image: url("./img/header-desktop.png");
-    width: 144rem;
+    width: 100%;
   }
 
   .hero h1 {
@@ -410,7 +410,7 @@ textarea:focus .form fieldset input {
   }
 
   .cards-container {
-    width: 144rem;
+    width: 100%;
   }
 
   .card {
@@ -510,7 +510,7 @@ textarea:focus .form fieldset input {
   }
 
   .about {
-    width: 144rem;
+    width: 100%;
   }
 
   .about-content {
@@ -546,7 +546,7 @@ textarea:focus .form fieldset input {
 
   .contact {
     background-image: url("./img/contact_form_desktop.png");
-    width: 144rem;
+    width: 100%;
   }
 
   .contact .contact-div {
